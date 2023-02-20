@@ -1,0 +1,43 @@
+ALGORITHM b_length_in_sentence
+VAR
+str: STRING: = "The best in the world";
+count
+: INTEGER e;
+BEGIN
+// Counts each character except space
+FOR (int i-0; i ‹ str.length(); i+) DO IF (str.charAt[i] !=") THEN
+count+t;
+END IF
+END_FOR
+Write (count)
+END
+ALGORITHM b word_in_sentence
+VAR
+str: STRING: = "The best in the world";
+count
+:INTEGER
+1;
+BEGIN
+/ The number of words in the sentence
+FOR i in str DO
+IF
+" THEN count += 1;
+END IF
+END_FOR
+Write (count)
+END
+[11:00 PM]
+ALGORITHM n_vowels_in_sentence
+VAR
+str: STRING : = "The best in the world";
+vowels : CHAR : = ['a','e','i','o','u"]
+count : INTEGER = 0;
+BEGIN
+// The number of vowels in the sentence.
+FOR i in str DO
+IF i in vowels THEN count += 1;
+END IF
+num_vowels = count;
+END_FOR
+Write(num_vowels);
+END
